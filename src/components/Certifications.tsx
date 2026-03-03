@@ -43,15 +43,15 @@ const Certifications = () => {
                 <p className="text-muted-foreground leading-relaxed">
                   {cert.description}
                 </p>
-                <a
-                  href={cert.verifyLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-primary hover:text-accent transition-colors mt-2 font-medium text-sm group/link"
-                >
-                  <span>Verify Certificate</span>
-                  <ExternalLink className="w-4 h-4 group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 transition-transform" />
-                </a>
+             <a
+  href="https://www.coursera.org/account/accomplishments/professional-cert/HMY095Z17JSS"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center gap-2 text-primary hover:text-accent transition-colors mt-2 font-medium text-sm group/link"
+>
+  <span>Verify Certificate</span>
+  <ExternalLink className="w-4 h-4 group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 transition-transform" />
+</a>
               </div>
             </div>
           </motion.div>
