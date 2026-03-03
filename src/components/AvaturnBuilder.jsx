@@ -132,6 +132,7 @@ export default function Avatar3D() {
           width: "100%",
           position: "relative",
           top: "-100px",
+          pointerEvents: "none",
         }}
         camera={{ position: [0, 1.8, 6.5], fov: 35 }}
       >
